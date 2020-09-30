@@ -10,6 +10,9 @@
   "author": "Harman Sidhu @harmanwho",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "live-server": "^1.2.1",
+    "prettier": "^2.1.2"
   }
 }
