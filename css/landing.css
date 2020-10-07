@@ -98,6 +98,10 @@ body {
     opacity: 0.8;
 }
 
+#colorChanger {
+    z-index: 1000;
+}
+
 .intro-heading {
     /* position: absolute;
     bottom: 0;
