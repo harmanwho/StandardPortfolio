@@ -46,7 +46,7 @@
                 <div class="row no-padding">
                     <div class="col-md-4 col-lg-4 no-padding">
                     </div>
-                    <div class="col-md-8 col-lg-8 intro-header">
+                    <div class="col-md-8 col-lg-8 intro-header" id="headerIntro">
                         <h1 class="intro-heading">
                             I am a software developer who loves creating beautiful applications and solving problems.
                         </h1>
@@ -61,12 +61,27 @@
                         <a href="https://www.linkedin.com/in/harmansidhudev/" target="_blank" class="fa fa-linkedin"></a>
                         <a href="https://github.com/harmanwho" target="_blank" class="fa fa-github"></a>
                     </div>
+                    <button type="button" onclick="changeColor()" id="colorChanger" class="btn btn-success">Show Color</button>
                 </div>
             </div>
-            <div class="container-fluid experience-card">
+            <!-- <div class="container-fluid experience-card">
                 
-            </div>
+            </div> -->
         </div>
+        <script>
+            function changeColor() {
+                var element = document.getElementById("headerIntro");
+                var button = document.getElementById("colorChanger");
+                if(element.classList.contains("green-me")) {
+                    element.classList.remove("green-me");
+                    button.innerHTML = "Show Color";
+                } else {
+                    element.classList.add("green-me");
+                    button.innerHTML = "Hide Color";
+                }
+                
+            } 
+        </script>
         <!-- <script src="" async defer></script> -->
         <!-- Bootstrap JS, Popper.js, and jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

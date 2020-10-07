@@ -92,6 +92,12 @@ body {
     background-color: #99FF99;
     opacity: 0.8;
 }
+
+.green-me {
+    background-color: #99FF99;
+    opacity: 0.8;
+}
+
 .intro-heading {
     /* position: absolute;
     bottom: 0;
