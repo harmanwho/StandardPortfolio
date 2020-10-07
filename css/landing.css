@@ -32,7 +32,7 @@ body {
 
 .intro::before {    
     content: "";
-    background: url(/images/webdev.jpg);
+    background: url(../images/webdev.jpg);
     background-size: 80% auto;
     background-repeat: no-repeat;
     position: absolute;
